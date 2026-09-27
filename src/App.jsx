@@ -5,6 +5,7 @@ import TarjetaTaller from "./components/TarjetaTaller/TarjetaTaller";
 
 export default function App() {
   const [temaOscuro, setTemaOscuro] = useState(false);
+  //Estados de visualización del Punto 3
   const [vista, setVista] = useState("grilla");
   const [compacto, setCompacto] = useState(false);
 
