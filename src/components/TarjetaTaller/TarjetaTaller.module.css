@@ -1,0 +1,65 @@
+.tarjeta {
+  background-color: var(--color-superficie);
+  color: var(--color-texto);
+  border: 2px solid transparent;
+  border-radius: 10px;
+  padding: 20px;
+  height: 100%;
+}
+
+.disponible {
+  border-color: var(--color-exito);
+}
+
+.pocos {
+  border-color: var(--color-alerta);
+}
+
+.completo {
+  border-color: var(--color-peligro);
+  opacity: 0.6;
+}
+
+.textoCompleto {
+  color: var(--color-peligro);
+  font-weight: bold;
+}
+.nuevo {
+  display: inline-block;
+  background-color: var(--color-primario);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.descripcion {
+  margin-top: 12px;
+}
+
+.expandida {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  border-width: 3px;
+}
+.lista {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  align-items: center;
+}
+
+.barra {
+  width: 100%;
+  height: 10px;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.relleno {
+  height: 100%;
+  background-color: var(--color-primario);
+  transition: width 0.3s;
+}
